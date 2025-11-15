@@ -10,7 +10,7 @@ pipeline {
 
         stage('Code') {
             steps {
-                git branch: 'master', url: 'git@github.com:shashankkanade25/Todo-List-nodejs.git'
+                git branch: 'master', url: 'https://github.com/shashankkanade25/Todo-List-nodejs.git'
             }
         }
 
